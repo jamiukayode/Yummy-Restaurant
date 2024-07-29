@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signUp.css">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <section class="sign-in">
+        <article class="sign-in_details">
+            <h1>Sign Up</h1>
+            <p>Fill the form below to create your account.</p>
+            <form  id="signupform" enctype="multipart/form-data"  class="sign-in_form">
+                <div class="form_control">
+                    <label for="name">First Name</label>
+                    <input name="first_name" type="text" placeholder="Enter your First Name" required>
+                </div>
+
+                <div class="form_control">
+                    <label for="name">Last Name</label>
+                    <input name="last_name" type="text" placeholder="Enter your Last Name" required>
+                </div>
+
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form_control">
+                    <label for="password">Password</label>
+                    <input name="password" type="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form_control">
+                    <label for="password"> Photo</label>
+                    <input name="profile" type="file" placeholder="Upload your photo" required>
+                </div>
+
+                <button class="btn primary" type="submit">Sign Up</button>
+            </form>
+            <small class="next-page"> Already a User ? <a href="login.html">Sign In</a></small>
+        </article>
+
+        <article class="sign-in_logo">
+            <div>
+                <img src="./Assets/img//menu/menu-item-6.png" alt=" website logo">
+            </div>
+        </article>
+    </section>
+
+    
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
